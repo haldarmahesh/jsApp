@@ -17,10 +17,10 @@ angular.module('ionicApp', ['ionic'])
       }
     })
     .state('eventmenu.checkin', {
-      url: "/check-in",
+      url: "/speakers",
       views: {
         'menuContent' :{
-          templateUrl: "templates/check-in.html",
+          templateUrl: "templates/speakers.html",
           controller: "CheckinCtrl"
         }
       }
